@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.0630779mm"
+   height="6.8212929mm"
+   viewBox="0 0 9.0630779 6.8212929"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="13.652437"
+     inkscape:cx="-6.3358652"
+     inkscape:cy="0.80571696"
+     inkscape:window-width="2560"
+     inkscape:window-height="1346"
+     inkscape:window-x="3829"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="-1"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="4"
+       markerHeight="4"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.270078,-108.27607)">
+    <g
+       aria-label="R"
+       id="text741"
+       style="font-size:9.525px;line-height:1.25;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583">
+      <path
+         d="m 42.146503,108.27607 c 0.84455,0 1.46685,0.16192 1.8669,0.48577 0.4064,0.3175 0.6096,0.8001 0.6096,1.4478 0,0.36195 -0.06667,0.66358 -0.200025,0.90488 -0.13335,0.2413 -0.3048,0.43497 -0.51435,0.58102 -0.2032,0.14605 -0.4191,0.25718 -0.6477,0.33338 -0.977412,0.32053 -0.271009,0.10569 -0.78105,0.23812 h -1.35255 v 2.80988 h -0.85725 v -6.80085 z m -0.04763,0.74295 h -0.97155 v 2.52412 h 1.019175 c 0.55245,0 0.955675,-0.10795 1.209675,-0.32385 0.254,-0.22225 0.381,-0.5461 0.381,-0.97155 0,-0.4445 -0.13335,-0.75882 -0.40005,-0.94297 -0.2667,-0.1905 -0.67945,-0.28575 -1.23825,-0.28575 z"
+         id="path951"
+         sodipodi:nodetypes="scsscccccccssccscscs" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="m 42.454289,111.59842 c 1.17262,3.85998 3.585423,3.85766 5.394259,0.88794"
+       id="path1131"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
