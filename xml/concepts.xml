@@ -1,10 +1,36 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="test.xsl"?>
-<Article>
-  <Title>My Article</Title>
-  <Authors>
-    <Author>Mr. Foo</Author>
-    <Author>Mr. Bar</Author>
-  </Authors>
-  <Body>This is my article text.</Body>
-</Article>
+<cs>
+	<c t="user" id="operator"></c>
+	<c t="user" operator="designer"></c>
+	<c t="phase"></c>
+	<c t="tradeoff" id="conplexity"></c>
+	<c t="prerequiste" id="requirements"></c>
+	<c t="prerequiste" id="metrics"></c>
+	<c t="prerequiste" id="thread_models"></c>
+	<c t="enabler" id="flexibility"></c>
+	<c t="enabler" id="diversity"></c>
+	<c t="enabler" id="adaptability"></c>
+	<c t="enabler" id="redundancy"></c>
+	<c t="mechanism" id="detection"></c>
+	<c t="mechanism" id="response"></c>
+	<c t="mechanism" id="recovery"></c>
+	<c t="tradeoff" id="costs"></c>
+	<c t="model"></c>
+	<c t="source"></c>
+	<c t="publication"></c>
+	<c t="image"></c>
+	<c t="demo"></c>
+	<c t="researcharea" id="modeling"></c>
+	<c t="researcharea" id="static_analysis"></c>
+	<c t="researcharea" id="dynamic_analysis"></c>
+	<c t="researcharea" id="mechanisms"></c>
+	
+	<c t="principle"></c>
+	<c t="applicationarea" id="communication"></c>
+	<c t="applicationarea" id="healthcare"></c>
+	<c t="applicationarea" id="finance"></c>
+	<c t="applicationarea" id="enegry"></c>
+	<c t="applicationarea" id="transportation"></c>
+	<c t="idea"></c>
+</cs>
