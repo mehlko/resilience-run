@@ -169,24 +169,83 @@
           <h2>🌍 Core Goals of this project</h2>
           <ul class="ms-4">
             <li>
-              Provide model-driven methods to make critical systems more
-              resilient.
+              Goal: Increase the system resilience of critical infrastructure
+              during design and runtime.
             </li>
             <li>
-              Provide model-driven methods that can be automated and are
-              cost-effective.
+              Subgoal1: Provide a model-driven method to define resilience
+              requirements.
             </li>
             <li>
-              Identify potential vulnerabilities in systems through modeling and
-              analysis, and develop resilience increasing methods accordingly.
+              Subgoal2: Provide an automated method to measure compliance of
+              models with their resilience requirements.
             </li>
             <li>
-              Create a central repository of resilience increasing methods that
-              are well documented and easy to adapt by other parties.
+              Subgoal3: Provide a method to define, select and apply mechanisms
+              to increase compliance with resilience requirements.
+            </li>
+            <li>
+              Subgoal4: Provide ready-to-use tool prototypes that can be used to
+              evaluate our approach on real-world use-cases.
             </li>
           </ul>
           <h2>📐 Resilience Modeling</h2>
           <ul class="ms-4">
+            <li>
+              RQ1: How can resilience requirements be represented in system
+              models?
+            </li>
+
+            <li>
+              Contribution1.1: Method to annotate the models and instances of
+              system models with resilience requirements.
+            </li>
+
+            <li>
+              Contribution1.2: Formal and well-defined documentation (e.g.
+              feature model and glossary) of selected key resilience
+              requirements and mechanisms that is understandable to system
+              designers and operators.
+            </li>
+
+            <li>
+              RQ2: How can the compliance of system models with resilience
+              requirements be automatically assessed?
+            </li>
+
+            <li>
+              Contribution2.1: Design-time method to statically analyze the
+              resilience of a system based on the annotated system models.
+            </li>
+
+            <li>
+              Contribution2.2: Runtime time method to dynamically analyze the
+              resilience of a system based on the annotated system models and
+              their instances.
+            </li>
+
+            <li>
+              Contribution2.3: Method to (also visually) link models and
+              instances of processes, their requirements and assets.
+            </li>
+
+            <li>
+              RQ3: How can the mechanism be defined, selected and applied to the
+              system models to increase compliance with resilience requirements?
+            </li>
+
+            <li>
+              Contribution3.1 Template for defining detection, response and
+              recovery mechanisms.
+            </li>
+
+            <li>
+              Contribution3.2 Method to select and apply detection, response and
+              recovery mechanisms based on the system analysis.
+            </li>
+          </ul>
+          <h3 class="mt-0">Use</h3>
+          <ul class="ms-4 mt-0">
             <li>
               Use modeling to prioritize which areas of a system need to be made
               more resilient.
@@ -206,11 +265,6 @@
                 alt="explicitStates"
               />
             </li>
-
-            <li>
-              Identify key vulnerabilities in systems and develop mitigation
-              strategies to improve resilience.
-            </li>
             <li>
               Use modeling techniques to identify potential sources of system
               disruptions and their impact on system resilience.
@@ -219,29 +273,14 @@
               src="https://test.resilience.run/img/threats.svg"
               alt="threats"
             />
-            <li>
-              Build mathematical models of complex systems in order to study how
-              they function and identify ways to make them more resilient.
-              <span class="badge bg-info text-dark"
-                >Intersted in Collaboration?</span
-              >
-            </li>
           </ul>
           <h2>📈 Static Resilience Analysis</h2>
-          <ul class="ms-4">
+          <ul class="ms-4"></ul>
+          <h3 class="mt-0">Use</h3>
+          <ul class="ms-4 mt-0">
             <li>
-              Use modeling techniques to evaluate the robustness of system
-              components and their ability to withstand and recover from
-              disruptions.
-            </li>
-            <li>
-              Use static analysis to identify potential system vulnerabilities
-              and then take steps to mitigate those vulnerabilities to make the
-              system more resilient.
-            </li>
-            <li>
-              Use static analysis tools to help automate the process of
-              identifying and fixing system vulnerabilities.
+              Use automated static analysis tools to to identify potential
+              system vulnerabilities.
             </li>
             <li>
               Use static resilience analysis in conjunction with other analyses,
@@ -252,8 +291,8 @@
               need to be made more resilient.
             </li>
             <li>
-              Conduct regular static analysis of systems and use the results to
-              improve resilience over time.
+              Conduct regular automated static analysis of systems and use the
+              results to improve resilience over time.
             </li>
             <li>
               Use static analysis results from one system to help assess the
@@ -273,7 +312,14 @@
             </li>
           </ul>
           <h2>⚙️📈 Dynamic Resilience Analysis and Simulation</h2>
-          <ul class="ms-4">
+          <ul class="ms-4"></ul>
+          <h3 class="mt-0">Use</h3>
+          <ul class="ms-4 mt-0">
+            <li>
+              Dynamic Resilience Analysis to evaluate the robustness of system
+              components and their ability to withstand and recover from
+              disruptions.
+            </li>
             <li>
               Develop models that simulate different types of system disruptions
               and analyze their impact on system performance.
@@ -295,30 +341,6 @@
               Analyze data from past disruptions to identify patterns and trends
               that can inform future resilience planning efforts.
             </li>
-            <li>
-              Use machine learning techniques on data collected from resilient
-              systems in order to better understand how they work and what makes
-              them successful.
-              <span class="badge bg-info text-dark"
-                >Intersted in Collaboration?</span
-              >
-            </li>
-            <li>
-              Conduct dynamic analysis of systems to identify points of failure
-              and weaknesses.
-            </li>
-            <li>
-              Develop system resilience models that can be used to predict the
-              behavior of dynamic systems under stress.
-            </li>
-            <li>
-              Use system resilience measures to assess the impact of proposed
-              changes to dynamic systems.
-            </li>
-            <li>
-              Increase reliability by testing your system thoroughly before
-              deployment. Provide a set of test sceenarios to
-            </li>
           </ul>
           <h2>🛠️ Resilience Increasing Mechanism</h2>
           <ul class="ms-4">
@@ -327,80 +349,31 @@
               enhancing system resilience.
             </li>
             <li>
-              Use modeling tools to evaluate the tradeoffs between different
-              methods to increasing system resilience.
-            </li>
-            <li>
-              Model prototypes of resilient systems to eveluate the proposed
-              resilience increasing methods.
-            </li>
-            <li>
               Design methods to increase the robustness and flexibility of
               critical systems
             </li>
+          </ul>
+          <h3 class="mt-0">Use</h3>
+          <ul class="ms-4 mt-0">
             <li>
-              Design algorithms that can automatically detect and respond to
-              changes in system conditions using principles of system
-              resilience.
-            </li>
-            <li>
-              Incorporate redundancy and backup systems into your design to
-              ensure continued operation in the event of system failure.
-            </li>
-            <li>
-              Incorporating automatic failover mechanisms into the system
-              design.
-            </li>
-            <li>
-              Design for scalability so that your system can handle increased
-              demand without crashing.
-            </li>
-            <li>
-              Improve security by hardening your system against attack and
-              implementing data protection techniques.
-            </li>
-            <li>
-              Implement monitoring and logging tools to help identify potential
-              problems before they cause downtime.
-            </li>
-            <li>
-              Developing a system that is able to quickly adapt and recover from
-              disruptions.
-            </li>
-            <li>
-              Building redundancy and diversity into systems to reduce the
-              impact of failures.
-            </li>
-            <li>
-              Designing systems for graceful degradation in the event of
-              component failure.
-            </li>
-            <li>
-              Implementing security controls to protect against external
-              threats.
-            </li>
-            <li>
-              Use a system of checklists or other tools to help ensure that all
-              critical system components are properly tested and updated on a
-              regular basis.
-            </li>
-            <li>
-              Develop and maintain strong relationships with key stakeholders,
-              so that you can quickly obtain replacement components or services
-              if needed.
-            </li>
-            <li>
-              Keep critical system data backed up in multiple dieverse
-              locations, so that it can be quickly recovered in the event of a
-              system failure.
+              Use analyses to evaluate the tradeoffs between different methods
+              to increasing system resilience.
             </li>
           </ul>
+        </div>
+        <!---------- focus ---------->
+        <div id="examples" class="row g-5">
+          <h2>🌍🧩 Examples</h2>
+          <ul class="ms-4">
+            <li></li>
+          </ul>
+          <a href="archive.html#examples">Older Examples</a>
         </div>
       </main>
       <!------------------- header ------------------->
       <footer class="pt-5 my-5 text-muted border-top">
         &copy; 2022 Resilience.run
-        📌📢📦🏁⚙️🔍💡📡🛰️✔️❗🧭📋🏢🏨🏡🏦🏙️🏭👮‍♀️👩🏽‍🚒🏥🚑🚒🚌🚎🚝📐📈🛠️⚡🔬🕹️🛑✅🧩🌍🗺️🐀🦗💧🍗🐟📱☎️📞🍎☢️☣️🔋🔌🔥🖨️📠💻👩‍💻🚚✈️🚗🚝🚢🚁🚧🏗️🚌⚓💊⚕️
+        📌📢📦🏁⚙️🔍💡📡🛰️✔️❗🧭📋🏢🏨🏡🏦🏙️🏭👮‍♀️👩🏽‍🚒🏥🚑🚒🚌🚎🚝📐📈🛠️⚡🔬🕹️🛑✅🧩🌍🗺️🐀🦗💧🍗🐟📱☎️📞🍎☢️☣️🔋🔌🔥🖨️📠💻👩‍💻🚚✈️🚗🚝🚢🚁🚧🏗️🚌⚓💊⚕️🛠️🔧🧲🔑💲💵💸💶💷🔮💰✂️⬇️↗️↗↘️🏞️🏞♻️🌳🌲🍃⛰️🔝🔒📊🐸🌾🌽
       </footer>
     </div>
   </body>
