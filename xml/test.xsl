@@ -9,6 +9,7 @@
 	<xsl:template match="/">
 		<html>
 			<body>
+				<h1>Hallo</h1>
 				<xsl:for-each
 					select="/cs/c[generate-id() = generate-id(key('concept',@t)[1])]">
 					<div>
